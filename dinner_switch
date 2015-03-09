@@ -1,0 +1,15 @@
+ar dinner = prompt('what do you want for dinner?');
+
+switch(dinner) {
+    case 'meat':
+        console.log('wow great choice');
+        break;
+    case 'fruit':
+        console.log('are you sure?');
+        break;
+    case 'ice cream':
+        console.log('hmmm');
+        break;
+    default:
+        console.log('think again');
+}
